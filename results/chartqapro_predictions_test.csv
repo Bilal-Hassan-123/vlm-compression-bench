@@ -1,0 +1,4 @@
+index,image_path,question,answer,question_type,year,paragraph,prediction
+0,chartqapro_images/0.jpg,estimate the year in which wind capacity first exceeds 100 gw based on the trend shown in the chart.,['2037-38'],Factoid,['NO'],,2015
+1,chartqapro_images/1.jpg,determine the airline with the highest increase in ghg emissions from 2008 to 2014,['United Airlines'],Factoid,['NO'],,American airlines
+2,chartqapro_images/2.jpg,how many times the retail sales growth went below the average annual percentage change from 2002 to 2010 by more than 2%,['3'],Factoid,['NO'],,1
