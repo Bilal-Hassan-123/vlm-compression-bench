@@ -1,0 +1,12 @@
+model,method,mechanism,token_budget,benchmark,baseline_acc,compressed_acc,retained
+LLaVA-NeXT-7B,VisionZip,"one-shot, text-agnostic",0.222,ChartQA,0.5456,0.4180,0.766
+LLaVA-NeXT-7B,DivPrune,"one-shot, diversity",0.223,ChartQA,0.5456,0.3592,0.658
+LLaVA-NeXT-7B,CDPruner,"one-shot, text-relevant",0.223,ChartQA,0.5456,0.2916,0.534
+Qwen2.5-VL-3B,VisionZip,"one-shot, text-agnostic",0.223,ChartQA,0.8284,0.6928,0.836
+Qwen2.5-VL-3B,HiPrune,"one-shot, attention-based",0.223,ChartQA,0.8284,0.6136,0.741
+Qwen2.5-VL-3B,CDPruner,"one-shot, text-relevant",0.223,ChartQA,0.8284,0.4736,0.572
+InternVL3-8B,CDPruner,"one-shot, text-relevant",0.223,ChartQA,0.7704,0.4272,0.555
+LLaVA-1.5-7B,HiPrune,"one-shot, attention-based",0.333,ChartQA,0.1824,0.1804,0.989
+LLaVA-1.5-7B,CDPruner,"one-shot, text-relevant",0.333,ChartQA,0.1780,0.1748,0.982
+LLaVA-1.5-7B,FastV,"layer-wise, attention-based",,ChartQA,0.1780,0.1544,0.867
+Qwen2.5-VL-3B,HiPrune,"one-shot, attention-based",0.223,ChartQA Pro,0.3046,0.2024,0.664
